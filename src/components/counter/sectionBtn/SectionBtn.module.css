@@ -1,0 +1,24 @@
+/*btn*/
+
+.wrapperBtn {
+    border-radius: 10px;
+    border: 5px solid aqua;
+    padding: 0.8rem;
+    display: flex;
+    gap:10px;
+}
+
+.btn {
+    background-color: aqua;
+    border: 0;
+    padding: 1rem 2.5rem;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.disabled {
+    background-color: #366464;
+    /*opacity: 0.5;*/
+}

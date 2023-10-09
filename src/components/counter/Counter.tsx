@@ -1,7 +1,7 @@
 import React, {FC, useEffect, useState} from 'react';
 import {Scoreboard} from "./scoreboard/Scoreboard";
 import {SectionBtn} from "./sectionBtn/SectionBtn";
-import './style.css'
+import s from './Counter.module.css'
 
 type CounterPropsType = {
     counter: number
@@ -14,7 +14,7 @@ type CounterPropsType = {
 export const Counter: FC<CounterPropsType> = ({counter, minCount, maxCount, increaseCounter, resetCounter}) => {
 
     return (
-        <div className='wrapper-counter'>
+        <div className={s.wrapper}>
             <Scoreboard counter={counter} maxCount={maxCount}/>
             <SectionBtn
                 increaseCounter={increaseCounter}

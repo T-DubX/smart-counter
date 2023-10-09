@@ -1,0 +1,12 @@
+.field {
+    margin-left: 15px;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.fieldError {
+    border: 2px solid red;
+    background-color: #f56464;
+}

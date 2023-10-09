@@ -1,13 +1,3 @@
-/*btn*/
-
-.wrapperBtn {
-    border-radius: 10px;
-    border: 5px solid aqua;
-    padding: 0.8rem;
-    display: flex;
-    gap:10px;
-}
-
 .btn {
     background-color: aqua;
     border: 0;

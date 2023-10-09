@@ -1,0 +1,12 @@
+/*btn*/
+
+.wrapperBtn {
+    border-radius: 10px;
+    border: 5px solid aqua;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    width: 90%;
+}
+

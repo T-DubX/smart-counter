@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import s from './counter/sectionBtn/SectionBtn.module.css'
+import s from './Button.module.css'
 
 type PropsType = {
     onClick: () => void
